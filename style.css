@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+   background-image: linear-gradient(90deg, rgb(241, 79, 30),rgb(255, 212, 20));
+}
+.login{
+    font-family: 'Arimo', sans-serif;
+   background-color: rgba(136, 133, 133, 0.384);
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 30px;
+   border-radius: 50px;
+   color: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+button{
+    background-color: rgb(38, 146, 38);
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+
+}
+button:hover{
+    background-color: rgb(4, 59, 4);
+    cursor: pointer;
+    font: bold;
+}
